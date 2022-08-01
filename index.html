@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="quiz">
+    <div class="quiz-container">
+      <div class="quiz-header">
+        <h2 class="quiz-heading">Н</h2>
+        <h3 class="quiz-sale">Ваша скидка - <span id="sale">2</span>%</h3>
+      </div>
+      <div class="quiz-body">
+        <div class="quiz-buttons">
+          <div class="qiuz-buttons__content" id="buttons">
+            <button class="quiz-button">Default button</button>
+            <button class="quiz-button quiz-button_wrong">Wrong answer</button>
+            <button class="quiz-button quiz-button_correct">Correct answer</button>
+            <button class="quiz-button quiz-button_passive">Unclicked button</button>
+          </div>
+        </div>
+      </div>
+      <div class="quiz-footer">
+        <h3 class="quiz-answers-counter"><span id="counter">1</span> вопрос из <span id="questions-length">6</span></h3>
+        <button class="quiz-previous-button">Назад</button>
+        <button class="quiz-next-button">Далее</button>
+      </div>
+    </div>
+  </div>
+  <script src="quiz.js"></script>  
+</body>
+</html>
